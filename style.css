@@ -1,0 +1,19 @@
+h1,body{
+    background-color:darksalmon;
+}
+button{
+    padding : 10px;
+    color:black;
+    background-color:rgb(107, 127, 67);
+    border-radius:10px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow:5px 5px 35px aqua}
+    to{box-shadow:5px 5px 35px red}
+    
+}
